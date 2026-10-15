@@ -1,0 +1,25 @@
+test_invalid_k_is_clean_command_error (test_baselines.CommandTests.test_invalid_k_is_clean_command_error) ... ok
+test_search_exposes_fixture_status (test_baselines.CommandTests.test_search_exposes_fixture_status) ... ok
+test_fixture_label_and_count (test_baselines.CorpusTests.test_fixture_label_and_count) ... ok
+test_reject_duplicate_ids_and_invalid_rows (test_baselines.CorpusTests.test_reject_duplicate_ids_and_invalid_rows) ... ok
+test_reject_missing_provenance (test_baselines.CorpusTests.test_reject_missing_provenance) ... ok
+test_reject_unknown_kind (test_baselines.CorpusTests.test_reject_unknown_kind) ... ok
+test_empty_corpus_and_documents (test_baselines.RetrievalTests.test_empty_corpus_and_documents) ... ok
+test_exact_match_and_explanation (test_baselines.RetrievalTests.test_exact_match_and_explanation) ... ok
+test_no_overlap_and_empty_queries_return_nothing (test_baselines.RetrievalTests.test_no_overlap_and_empty_queries_return_nothing) ... ok
+test_reject_nonpositive_k (test_baselines.RetrievalTests.test_reject_nonpositive_k) ... ok
+test_stable_ties_and_k (test_baselines.RetrievalTests.test_stable_ties_and_k) ... ok
+test_unknown_query_terms_do_not_create_fake_results (test_baselines.RetrievalTests.test_unknown_query_terms_do_not_create_fake_results) ... ok
+test_all_pronunciation_variants_are_considered (test_baselines.RhymeTests.test_all_pronunciation_variants_are_considered) ... ok
+test_dialect_not_rewritten (test_baselines.RhymeTests.test_dialect_not_rewritten) ... ok
+test_empty_and_punctuation_only (test_baselines.RhymeTests.test_empty_and_punctuation_only) ... ok
+test_original_lines_and_numbers_are_retained (test_baselines.RhymeTests.test_original_lines_and_numbers_are_retained) ... ok
+test_repeated_word_is_not_counted_as_a_rhyme (test_baselines.RhymeTests.test_repeated_word_is_not_counted_as_a_rhyme) ... ok
+test_single_line_still_reports_unknown_ending (test_baselines.RhymeTests.test_single_line_still_reports_unknown_ending) ... ok
+test_sound_not_spelling (test_baselines.RhymeTests.test_sound_not_spelling) ... ok
+test_unknown_is_not_a_negative_judgment (test_baselines.RhymeTests.test_unknown_is_not_a_negative_judgment) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.478s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "corpus_kind": "synthetic_fixture",
+  "source": {
+    "origin": "AI-authored software fixtures for BattleBars, 2026-10-15",
+    "license_or_permission": "Project-authored demonstration text; no copied song lyrics",
+    "reviewed_on": "2026-10-15",
+    "permission_note": "Synthetic only. Not a real battle corpus and not human-reviewed evaluation data."
+  },
+  "bars": [
+    {"id": "fixture-01", "text": "I build a bridge from every word I write", "battle_id": "synthetic-a", "performer_id": "synthetic-a1"},
+    {"id": "fixture-02", "text": "Your paper crown dissolves beneath the light", "battle_id": "synthetic-a", "performer_id": "synthetic-a2"},
+    {"id": "fixture-03", "text": "My clock keeps time while yours forgets the beat", "battle_id": "synthetic-b", "performer_id": "synthetic-b1"},
+    {"id": "fixture-04", "text": "I plant a garden in this concrete street", "battle_id": "synthetic-b", "performer_id": "synthetic-b2"},
+    {"id": "fixture-05", "text": "Your bridge is paper; watch the river rise", "battle_id": "synthetic-c", "performer_id": "synthetic-c1"},
+    {"id": "fixture-06", "text": "A quiet answer takes you by surprise", "battle_id": "synthetic-c", "performer_id": "synthetic-c2"}
+  ]
+}
