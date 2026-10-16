@@ -7,6 +7,7 @@ from pathlib import Path
 from battlebars.corpus import load_corpus
 from battlebars.retrieval import LexicalIndex
 from battlebars.rhyme import analyze
+from battlebars.review import prepare_review
 
 
 def main() -> None:
@@ -18,10 +19,17 @@ def main() -> None:
     search.add_argument("corpus", type=Path)
     search.add_argument("query")
     search.add_argument("--k", type=int, default=5)
+    review = commands.add_parser("review", help="Prepare an unlabelled rhyme-pair review sheet")
+    review.add_argument("corpus", type=Path)
+    review.add_argument("--reviewer", choices=["A", "B"], required=True)
+    review.add_argument("--limit", type=int, default=50)
+    review.add_argument("--seed", type=int, default=17)
     args = parser.parse_args()
     try:
         if args.command == "rhyme":
             result = analyze(args.file.read_text(encoding="utf-8"))
+        elif args.command == "review":
+            result = prepare_review(args.corpus, args.reviewer, args.limit, args.seed)
         else:
             corpus = load_corpus(args.corpus)
             result = {

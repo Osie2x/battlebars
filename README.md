@@ -15,6 +15,7 @@ battlebars rhyme data/fixtures/verse.txt
 battlebars search data/fixtures/bars.json 'bridge river' --k 2
 python -m unittest discover -s tests -v
 python scripts/reproduce.py
+battlebars review data/fixtures/bars.json --reviewer A --limit 3
 ```
 
 On Windows use `.venv\Scripts\activate` instead. Installation needs network access; analysis and retrieval then run locally. The examples use six **AI-authored synthetic fixtures**, never real artist lyrics. For your own verse, save a UTF-8 text file and pass its path to `battlebars rhyme`.
@@ -36,6 +37,7 @@ Original text is retained. Lookup normalizes case/apostrophe shape but does not 
 ## Evidence and limits
 
 - October 15 local baseline: **20 tests passed**. [Saved output](reports/tests-2026-10-15.txt).
+- October 16 review preparation: **31 total tests passed**. [Saved output](reports/tests-2026-10-16.txt). The new `review` command prepares blank human-label sheets and flags normalized duplicate text; it does not run an evaluation.
 - [Reproducible report](reports/baseline-2026-10-15.json) records resource hashes, actual dictionary size, fixture outputs and narrowly scoped local timing.
 - Real battle-rap records ingested: **0**. Human-reviewed evaluation cases: **0**. No accuracy, retrieval-quality or artistic-quality result is established.
 - CMUdict is a real pronunciation resource, not a real battle-rap dataset. Pronunciation, delivery, slant rhymes and context may disagree with this baseline. Unknown words are not bad rhymes. Text alone does not establish spoken flow or the winner.
@@ -45,6 +47,8 @@ Original text is retained. Lookup normalizes case/apostrophe shape but does not 
 ## Read and learn
 
 Start with [the first walkthrough](docs/LEARN_01.md), then [implementation decisions](docs/DECISIONS.md) and [the data audit](docs/DATA_AUDIT.md). The walkthrough includes one interview question and an independent coding exercise, with no answer shown.
+
+[Preparing a human review](docs/HUMAN_REVIEW.md) explains two independent review sheets, source identity, sampling limitations and the short October 16 exercise. [Example output](reports/review-fixture-2026-10-16.json) is synthetic and unlabelled. Do not show it to reviewers of a real dataset as a source of answers.
 
 Next: obtain explicitly permissioned original battle bars, review annotations independently, and compare this baseline on held-out material before adding models or a web API. Keep one milestone small enough to explain. A weekly learning checkpoint gates feature expansion.
 

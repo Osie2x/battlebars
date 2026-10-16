@@ -32,3 +32,9 @@ The corpus loader expects the same JSON structure as the fixture, with `corpus_k
 2. Have humans independently review rhyme candidates and query/bar relevance; reconcile disagreements separately from the initial judgments. Never use an LLM's agreement as gold accuracy.
 3. Freeze a development/test separation by whole battle, audit duplicate and near-duplicate lines, and avoid performer overlap for a separate performer-generalization check where feasible. If connected shared performers make a clean split impossible at this size, report that limitation rather than inventing a disjoint test set.
 4. Only then compute task metrics: rhyme precision/recall with unknown coverage, retrieval Recall@k or MRR with actual relevance labels. Record dataset sizes and split membership. No such metrics exist today.
+
+## October 16 follow-up
+
+The [RapCanon dataset catalogue](https://rapcanon.com/datasets/) was inspected directly. It lists one released music-business lexicon (31 records) and a rap lexical-density index marked “Corpus running,” with no record count shown. Neither listing establishes a downloadable, permissioned battle-transcript corpus. No records from that site were imported. The [Swansea research-record lead](https://cronfa.swansea.ac.uk/Record/cronfa71550) could not be fetched during this bounded check; its corpus contents and permissions remain unverified. Accepted real battle bars and completed human evaluation cases remain **0**.
+
+The new `review` command implements preparation only: reproducible sampled bar pairs with blank labels, no dictionary predictions, corpus SHA-256 and duplicate/tokenless-text flags. See [the review protocol](HUMAN_REVIEW.md). This makes future annotation usable without turning AI-authored fixtures into gold data.

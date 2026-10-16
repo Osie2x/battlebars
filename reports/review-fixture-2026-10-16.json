@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "task": "end_rhyme_pair_review",
+  "reviewer": "A",
+  "corpus_kind": "synthetic_fixture",
+  "corpus_sha256": "35c7dd3cb2f8d9584d7ca443b371f93ef1db408aaebeddec620cab2993ddb111",
+  "source_declaration": {
+    "origin": "AI-authored software fixtures for BattleBars, 2026-10-15",
+    "license_or_permission": "Project-authored demonstration text; no copied song lyrics",
+    "reviewed_on": "2026-10-15",
+    "permission_note": "Synthetic only. Not a real battle corpus and not human-reviewed evaluation data."
+  },
+  "seed": 17,
+  "population_pairs": 15,
+  "selected_pairs": 3,
+  "sampling": "uniform reservoir over all unordered pairs; no model-based selection",
+  "allowed_labels": [
+    "rhyme",
+    "no_rhyme",
+    "uncertain",
+    "repeated_word"
+  ],
+  "instructions": "Judge ending sounds, not artistic quality. Label uncertain when text cannot establish pronunciation. Work independently; do not inspect model output or the other reviewer's labels.",
+  "quality_flags": {
+    "normalized_duplicate_groups": [],
+    "tokenless_bar_ids": [],
+    "scope": "exact duplicates after lookup token normalization only; near-duplicates and split leakage still need review"
+  },
+  "human_labels_completed": 0,
+  "quality_metrics": null,
+  "items": [
+    {
+      "case_id": "369050fb65849207212bcb598a9d49e3c482074bb7af8120f907802e4d034365",
+      "left": {
+        "id": "fixture-03",
+        "text": "My clock keeps time while yours forgets the beat",
+        "battle_id": "synthetic-b",
+        "performer_id": "synthetic-b1"
+      },
+      "right": {
+        "id": "fixture-06",
+        "text": "A quiet answer takes you by surprise",
+        "battle_id": "synthetic-c",
+        "performer_id": "synthetic-c2"
+      },
+      "human_label": null,
+      "notes": ""
+    },
+    {
+      "case_id": "a3b710849b1e85bfa3b5966902272068ac656670caefef7164c733c8fb5b4093",
+      "left": {
+        "id": "fixture-03",
+        "text": "My clock keeps time while yours forgets the beat",
+        "battle_id": "synthetic-b",
+        "performer_id": "synthetic-b1"
+      },
+      "right": {
+        "id": "fixture-05",
+        "text": "Your bridge is paper; watch the river rise",
+        "battle_id": "synthetic-c",
+        "performer_id": "synthetic-c1"
+      },
+      "human_label": null,
+      "notes": ""
+    },
+    {
+      "case_id": "0485f29b4c495c9910cdb0142203d85ddcd3beaf01ccb705952ca5ed6f2e36d7",
+      "left": {
+        "id": "fixture-02",
+        "text": "Your paper crown dissolves beneath the light",
+        "battle_id": "synthetic-a",
+        "performer_id": "synthetic-a2"
+      },
+      "right": {
+        "id": "fixture-05",
+        "text": "Your bridge is paper; watch the river rise",
+        "battle_id": "synthetic-c",
+        "performer_id": "synthetic-c1"
+      },
+      "human_label": null,
+      "notes": ""
+    }
+  ]
+}

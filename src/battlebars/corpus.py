@@ -6,7 +6,7 @@ from pathlib import Path
 
 def load_corpus(path: Path) -> dict:
     data = json.loads(path.read_text(encoding="utf-8"))
-    if not isinstance(data, dict) or data.get("corpus_kind") not in {"synthetic_fixture", "permissioned_real"}:
+    if not isinstance(data, dict) or data.get("corpus_kind") not in ("synthetic_fixture", "permissioned_real"):
         raise ValueError("corpus_kind must be synthetic_fixture or permissioned_real")
     source = data.get("source")
     if not isinstance(source, dict) or any(
