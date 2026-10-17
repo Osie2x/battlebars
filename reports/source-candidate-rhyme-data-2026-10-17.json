@@ -1,0 +1,245 @@
+{
+  "checked_on": "2026-10-17",
+  "status": "candidate_located_permission_unresolved",
+  "repository": "https://github.com/jordanmasters/rhyme-data",
+  "commit": "953480f2f56f5c46df31bdf9d68a446be9b1eda7",
+  "commit_date": "2022-07-31T22:15:26Z",
+  "readme_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/README.md",
+  "source_attribution": "Repository README attributes the 36 acapella battles to Battlerap.com. Original recording/transcript ownership and transcription accuracy have not been independently verified.",
+  "listed_battle_transcript_files": 36,
+  "listed_battle_transcript_bytes": 745914,
+  "github_detected_license": null,
+  "license_or_permission_files_found": [],
+  "permission_decision": "No explicit corpus reuse or redistribution grant found in this snapshot. The separate Phonesse software Apache license is not assumed to cover these transcripts. Not imported, trained on, evaluated or redistributed in BattleBars.",
+  "accepted_real_battle_bars": 0,
+  "human_gold_cases": 0,
+  "inspection": {
+    "path": "Battle_Rap/Battles/Chilla-Jones_vs_QP.txt",
+    "scope": "One public file downloaded outside the BattleBars repository for source inspection only; no lyrics copied into the manifest or accepted corpus.",
+    "bytes": 24594,
+    "sha256": "b85634e096b401fb9c7da294a0792dad650688076c36d4cb86b0ae4b707d2630",
+    "git_blob_sha": "750bc8901cc52a439b95fdee31f3633c268a6f29",
+    "git_blob_hash_matches": true,
+    "total_text_lines": 481,
+    "nonblank_text_lines": 403,
+    "note": "Line counts include headers/structure and are not counts of usable bars or evaluation cases."
+  },
+  "files": [
+    {
+      "path": "Battle_Rap/Battles/Aye-Verb_vs_Hitman-Holla.txt",
+      "bytes": 20443,
+      "git_blob_sha": "d0a5bbfe1843330009f058c6aa5d64ff126af6df",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Aye-Verb_vs_Hitman-Holla.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Blizzard_vs_Mark-Grist.txt",
+      "bytes": 10370,
+      "git_blob_sha": "140ea1e9a90d047dc59ba1dab39d2e9cf526d9f9",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Blizzard_vs_Mark-Grist.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Born_vs_Gjonaj.txt",
+      "bytes": 19193,
+      "git_blob_sha": "96392a74020b63a0ae61a9b5432ac02a5725c279",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Born_vs_Gjonaj.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Cadalack-Ron_vs_Caustic.txt",
+      "bytes": 6403,
+      "git_blob_sha": "18fd6171daa6947ff4c4585ee754012500261e68",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Cadalack-Ron_vs_Caustic.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Caustic_vs_Soul.txt",
+      "bytes": 15057,
+      "git_blob_sha": "8101933cad09700c8f252c9ca828ec7a65ef0565",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Caustic_vs_Soul.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Chedda-Cheese_vs_Carter-Deems.txt",
+      "bytes": 13308,
+      "git_blob_sha": "ec691c5ec9d427901bcead41223707140a821ad5",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Chedda-Cheese_vs_Carter-Deems.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Chilla-Jones_vs_QP.txt",
+      "bytes": 24594,
+      "git_blob_sha": "750bc8901cc52a439b95fdee31f3633c268a6f29",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Chilla-Jones_vs_QP.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Cortez_vs_Charron.txt",
+      "bytes": 17310,
+      "git_blob_sha": "297ab7e13e5de6a24e61b5e88dfb9bc62d2f3ff1",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Cortez_vs_Charron.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Danja-Zone_vs_Danny-Myers.txt",
+      "bytes": 17381,
+      "git_blob_sha": "10a49d4185116de53a76fd66d02f68c604614493",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Danja-Zone_vs_Danny-Myers.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Danny-Myers_vs_B-Dot.txt",
+      "bytes": 29205,
+      "git_blob_sha": "191b2c85f6d80b484528811d36dcf4d9f9b2f23f",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Danny-Myers_vs_B-Dot.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Danny-Myers_vs_Charlie-Clips.txt",
+      "bytes": 18989,
+      "git_blob_sha": "257094573c6c7acb41f6fdc6a9fbbf78c92bc6da",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Danny-Myers_vs_Charlie-Clips.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Danny_Myers_vs_Gjonaj.txt",
+      "bytes": 17811,
+      "git_blob_sha": "001eed16ce18fd603dba09dcaee00fb8770eebd1",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Danny_Myers_vs_Gjonaj.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Daylyt_vs_O-Red.txt",
+      "bytes": 20251,
+      "git_blob_sha": "805691e9c8febbebba968ad86da1f2cfebf46a52",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Daylyt_vs_O-Red.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Gjonaj_vs_Psycoses.txt",
+      "bytes": 20112,
+      "git_blob_sha": "d9191ce7d3205ad484ea9c28adcd00fc41375a50",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Gjonaj_vs_Psycoses.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/HOLLOW-DA-DON_vs_pat-stay.txt",
+      "bytes": 9373,
+      "git_blob_sha": "17a2b3d1ed3e7f92ca22d4c41480cda54cd559cc",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/HOLLOW-DA-DON_vs_pat-stay.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Iron-Solomon_vs_Dizaster.txt",
+      "bytes": 38969,
+      "git_blob_sha": "babeaddfb9a9a23aecdfe2d927ccb19b9cab6409",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Iron-Solomon_vs_Dizaster.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Loaded-Lux_vs_Charlie-Clips.txt",
+      "bytes": 34181,
+      "git_blob_sha": "36595b073ab540dd5e2c786f29bd7c9128d03669",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Loaded-Lux_vs_Charlie-Clips.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/PH_vs_Madness.txt",
+      "bytes": 8199,
+      "git_blob_sha": "3bff9233e039e1a8a9302bfa440c72536783b0bd",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/PH_vs_Madness.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/PNut_vs_BonnieGodiva.txt",
+      "bytes": 16188,
+      "git_blob_sha": "a4d14e8fa890e3460a6c6fd8b36da1d568a971c0",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/PNut_vs_BonnieGodiva.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Rone_vs_Illmaculate.txt",
+      "bytes": 23565,
+      "git_blob_sha": "fd3b863a01a16f9beef8ebc8be5a748de552dfa3",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Rone_vs_Illmaculate.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/Rum-Nitty_vs_Ave.txt",
+      "bytes": 73804,
+      "git_blob_sha": "d890eb3039c3f45d815b53644ea01c995834a010",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/Rum-Nitty_vs_Ave.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/The-Saurus_vs_Daylyt.txt",
+      "bytes": 12521,
+      "git_blob_sha": "ad8086efcedae5668c01faed3c66e0990830af76",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/The-Saurus_vs_Daylyt.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/bonnie-godiva_vs_myverse.txt",
+      "bytes": 21998,
+      "git_blob_sha": "da30f7898df6edb2a42008110d8c7a9c42baae3b",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/bonnie-godiva_vs_myverse.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/caustic_vs_bigg-k.txt",
+      "bytes": 15586,
+      "git_blob_sha": "6ebcdd5e8dd7f40af122a0284eab279bd65d1f9d",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/caustic_vs_bigg-k.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/caustic_vs_rone.txt",
+      "bytes": 25433,
+      "git_blob_sha": "8d25ee7a83d98a1a624e3860fcce72b0ddf92674",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/caustic_vs_rone.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/charlie-clips-vs-hollow-da-don.txt",
+      "bytes": 30843,
+      "git_blob_sha": "5362792a1f466643c17faaf5c82192bacb53e48f",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/charlie-clips-vs-hollow-da-don.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/chilla-jones_vs_danny-meyers.txt",
+      "bytes": 20413,
+      "git_blob_sha": "34edbbe4f253e2513b15123c3bf853a82ad9a9cd",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/chilla-jones_vs_danny-meyers.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/chilla-jones_vs_tony-d.txt",
+      "bytes": 17689,
+      "git_blob_sha": "278ce30d17b019204cb43c76156e7f90a5f6c807",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/chilla-jones_vs_tony-d.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/danja-zone_vs_b-magic.txt",
+      "bytes": 13966,
+      "git_blob_sha": "db4ced8db1a6afbf9171c4262524f855fae56f9c",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/danja-zone_vs_b-magic.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/fresco_vs_the-saurus.txt",
+      "bytes": 16372,
+      "git_blob_sha": "1de62c1ba0ce3de3936fa6545156ccd319cbdd80",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/fresco_vs_the-saurus.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/lu-cipher_vs_madflex.txt",
+      "bytes": 16131,
+      "git_blob_sha": "096a6145926ba93f6907b5cd8bda2f50e59699f8",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/lu-cipher_vs_madflex.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/madflex_vs_e-farrel.txt",
+      "bytes": 19985,
+      "git_blob_sha": "57ded4b4a03d039487a0607eb1274e241905233f",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/madflex_vs_e-farrel.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/ness-lee-vs-soul.txt",
+      "bytes": 13882,
+      "git_blob_sha": "8d0ca9765499b00ced7e5ea78716eca92bd922d4",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/ness-lee-vs-soul.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/rone-vs-the-saurus.txt",
+      "bytes": 15127,
+      "git_blob_sha": "edbdb6b56e45e89c836321288eace9abd07b269b",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/rone-vs-the-saurus.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/saint-mic_vs_a-ward.txt",
+      "bytes": 24397,
+      "git_blob_sha": "5e72552163ec6893fe99b62be6b0105a0d2fbf28",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/saint-mic_vs_a-ward.txt"
+    },
+    {
+      "path": "Battle_Rap/Battles/soul-vs-cee-major.txt",
+      "bytes": 26865,
+      "git_blob_sha": "51641218cdad532f2cec8490d96dd7de23b1d625",
+      "pinned_url": "https://github.com/jordanmasters/rhyme-data/blob/953480f2f56f5c46df31bdf9d68a446be9b1eda7/Battle_Rap/Battles/soul-vs-cee-major.txt"
+    }
+  ]
+}

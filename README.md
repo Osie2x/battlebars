@@ -22,6 +22,10 @@ On Windows use `.venv\Scripts\activate` instead. Installation needs network acce
 
 The sample finds `write/light` and `beat/street` as dictionary rhyme candidates. Searching `bridge river` ranks fixture-05 first, showing the matching words and cosine similarity. A similarity is not a probability. No-overlap queries return no matches.
 
+## Where the battle-rap data stands
+
+On October 17, the source search located [jordanmasters/rhyme-data](https://github.com/jordanmasters/rhyme-data), which lists **36 battle-transcript files** attributed to Battlerap.com. A [pinned metadata inventory](reports/source-candidate-rhyme-data-2026-10-17.json) records their names, sizes and Git blob hashes. One file was inspected outside this repository to verify access and its hash. No explicit corpus license/permission statement was found, so these transcripts have **not** been imported, redistributed or used for model evaluation. The six examples shipped here remain synthetic. See [the source audit](docs/DATA_AUDIT.md) for the distinction between a located source and an accepted dataset.
+
 ## How it works
 
 ```text
@@ -49,6 +53,8 @@ Original text is retained. Lookup normalizes case/apostrophe shape but does not 
 Start with [the first walkthrough](docs/LEARN_01.md), then [implementation decisions](docs/DECISIONS.md) and [the data audit](docs/DATA_AUDIT.md). The walkthrough includes one interview question and an independent coding exercise, with no answer shown.
 
 [Preparing a human review](docs/HUMAN_REVIEW.md) explains two independent review sheets, source identity, sampling limitations and the short October 16 exercise. [Example output](reports/review-fixture-2026-10-16.json) is synthetic and unlabelled. Do not show it to reviewers of a real dataset as a source of answers.
+
+For the first weekend, use [the 15-minute review outline](docs/WEEKEND_REVIEW.md). Human review and the independent exercise are still pending.
 
 Next: obtain explicitly permissioned original battle bars, review annotations independently, and compare this baseline on held-out material before adding models or a web API. Keep one milestone small enough to explain. A weekly learning checkpoint gates feature expansion.
 
