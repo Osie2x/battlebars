@@ -2,6 +2,8 @@
 
 An explainable NLP prototype for battle-rap fans and writers: inspect end-rhyme candidates and find bars that share vocabulary with a query. The first milestone is a small Python command-line tool. It is not a deployed app or a trained battle-rap judge.
 
+**October 18 checkpoint: awaiting user review.** The current implementation stays at its first learning milestone until an actual walkthrough and independent exercise attempt are recorded. See the [weekly evidence summary](docs/WEEKLY_2026-10-18.md).
+
 ## Try it
 
 Python 3.11+; no API key, cloud account or GPU required. From this repository:
